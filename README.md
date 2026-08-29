@@ -55,7 +55,13 @@ Posteriormente, se realizó una prueba estadística para determinar si la difere
 ## Principales resultados
 
 - **Loop** presentó el mayor promedio de viajes finalizados y fue el único barrio que superó los 10,000 viajes promedio.
+
+<img src="images/top_10_neighborhoods.png" alt="Top 10 Drop-off Neighborhoods" width="700">
+
 - **Flash Cab** registró el mayor número de viajes, con cerca de 20,000 durante el período analizado.
+
+<img src="images/top_10_taxi_companies.png" alt="Top 10 Taxi Companies by Number of Trips" width="700">
+  
 - Los viajes entre el Loop y el Aeropuerto Internacional O'Hare tuvieron una duración promedio aproximadamente **7 minutos mayor bajo condiciones climáticas desfavorables**.
 - La prueba de hipótesis obtuvo un **p-value ≈ 6.52 × 10⁻¹²**, proporcionando evidencia estadísticamente significativa de una diferencia en la duración promedio de los viajes entre ambas condiciones climáticas.
 
@@ -72,6 +78,9 @@ El análisis utiliza tres datasets con información sobre:
 ```text
 zuber-taxi-trip-analysis/
 │
+├── images/
+│   ├── top_10_neighborhoods.png
+│   └── top_10_taxi_companies.png
 ├── zuber_taxi_trip_analysis.ipynb
 ├── project_sql_result_01.csv
 ├── project_sql_result_04.csv
